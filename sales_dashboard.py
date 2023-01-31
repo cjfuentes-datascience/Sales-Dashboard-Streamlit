@@ -10,7 +10,7 @@ st.set_page_config(
 @st.cache
 def get_data_from_excel():
     df = pd.read_excel(
-    io=r"C:\Users\Carlos\Downloads\supermarkt_sales.xlsx",
+    io=r"supermarkt_sales.xlsx",
     engine='openpyxl',
     sheet_name='Sales',
     skiprows=3,
